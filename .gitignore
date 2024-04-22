@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+.cache/
+logs/
+*.log
+
+# Virtual environment
+venv/
+env/
+
+# Compiled Python files
+*.pyc
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Compiled binary files
+*.so
+*.dll
+*.exe
+*.out
+
+# Backup files
+*~
+*.bak
+
+# Ignore the database file if it's not meant to be versioned
+db.sqlite3
+
+# Ignore any local configuration files
+config.ini
+
+# Ignore any secret keys or sensitive information
+secrets.json
+.env
+
+# Ignore any local environment files
+../inlaze-scrapper/.env
+
+# Ignore any generated documentation
+docs/
+
+# Ignore any generated coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Ignore any temporary files or directories
+temp/
+tmp/
+
+app/data/scrapers/bet_houses/csv/*
+csv/*
+!csv/.gitkeep
